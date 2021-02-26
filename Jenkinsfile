@@ -22,7 +22,7 @@ node{
 '''
    }*/
    stage('Deploy to Tomcat'){
-     bat "copy target\\demoJenkins1.war \"${tomcatWeb}\\demojenkins1.war\""
+     bat "copy target\\demoJenkins.war \"${tomcatWeb}\\demojenkins.war\""
    }
       
 }
