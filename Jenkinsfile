@@ -1,6 +1,6 @@
 node{
 
-   def tomcatWeb = 'C:\\Users\\Harsha\\Apache Software Foundation\\Tomcat 9.0\\webapps'
+   def tomcatWeb = 'C:\\Users\\Harsha\\Apache Software Foundation\\webapps'
    stage('SCM Checkout'){
       git 'https://github.com/Harshahrs/demoJenkins1.git'
    }
